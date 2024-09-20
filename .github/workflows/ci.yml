@@ -41,6 +41,12 @@ jobs:
       - name: Run tests
         run: mvn test
 
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
       # Étape 6 : Générer le Rapport de Couverture avec JaCoCo
       - name: Generate JaCoCo Report
         run: mvn jacoco:report

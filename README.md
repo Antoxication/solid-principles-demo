@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/Antoxication/solid-principles-demo/graph/badge.svg?token=CemO15CO35)](https://codecov.io/gh/Antoxication/solid-principles-demo)

@@ -33,7 +33,7 @@
 
     <build>
         <plugins>
-            <!-- Plugin Compiler pour dÃ©finir les versions de Java -->
+            <!-- Plugin Compiler pour définir les versions de Java -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
